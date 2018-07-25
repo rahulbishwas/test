@@ -89,10 +89,13 @@ app.get('/CategoryDetail',function(req,res){
  
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin/master
 // app.get('/CategoryDetail:categoryDetails',function(req,res){
 //   console.log("rahul")
 //   var category=req.params.categoryDetails

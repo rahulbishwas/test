@@ -27,14 +27,21 @@ export   class   SalesCategoryComponant implements OnInit {
   resulttypes=[];
   // salescategoryDetails;
     new123:boolean;
+<<<<<<< HEAD
    
     
+=======
+ 
+>>>>>>> origin/master
 
  
  constructor( private saleCategory:SalesCategoryService, private http: Http) {
    this.new123=false;
+<<<<<<< HEAD
 
   
+=======
+>>>>>>> origin/master
  
   }
   ngOnInit() {
@@ -70,6 +77,7 @@ export   class   SalesCategoryComponant implements OnInit {
 
  }
 
+<<<<<<< HEAD
 
  
  
@@ -81,6 +89,8 @@ export   class   SalesCategoryComponant implements OnInit {
 
 
  
+=======
+>>>>>>> origin/master
  
 new(){
 
@@ -88,9 +98,12 @@ new(){
 }
 
 myCategory(name1,name2,name3){
+<<<<<<< HEAD
   alert(name1);
   alert(name2);
   alert(name3);
+=======
+>>>>>>> origin/master
            
 let c=name1+ ','+ name2 + ','+name3;
 
