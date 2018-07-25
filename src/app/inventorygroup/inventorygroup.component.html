@@ -1,0 +1,173 @@
+
+
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  class="main">
+    <div class="row">
+
+        <div class="col-md-8   col-sm-8  ">
+          <div class="panel panel-default">
+            <div id="vrbar">
+                <div id="hrbar">
+
+            <table class="table">
+             <thead>
+                 <tr>
+                  <th><span class="text">Name</span></th>
+                  <th><span class="text">lastname</span></th>
+                  <th><span class="text">roll</span></th>
+                  <th><span class="text">Delete</span></th>
+                </tr>
+            </thead>
+                 
+            <tbody>
+                <tr>
+                    <td>Rahul</td>
+                    <td>bishwas</td>
+                    <td>123</td>
+                    <td>delete</td>
+                </tr>
+                  
+                <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                 </tr>
+
+                 <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>bishwas</td>
+                        <td>123</td>
+                        <td>delete</td>
+                    </tr>
+    
+    
+
+            </tbody>
+
+
+
+
+            </table> 
+            </div>
+            </div>
+        
+            </div>
+            </div>
+            
+
+    
+
+    
+        <div class="col-md-4   col-sm-4">
+
+            <form>
+
+
+                 <div class="sale">
+                                
+                     <label for="invid">InvGroupId:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <input [(ngModel)]="groupid" name="groupid"  type="text" id="invid"><br><br>
+    
+    
+                                     
+                                
+    
+                                 
+                     <label for="srt">SortOrder:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input [(ngModel)]="sort" name="sort" type="text" id="srt" ><br><br>
+                                
+    
+                     
+                    <label for="invname">InvGroupName:&nbsp;&nbsp;</label>
+                     <input [(ngModel)]="groupname" name="groupname" type="text" id="invname" ><br><br>
+                             
+                        
+                    <label for="lias">Alias:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input [(ngModel)]="alias" name="alias" type="text" id="lias" >
+                            
+                                           
+                            
+    
+                    </div>
+                          
+                     </form>
+                     
+                     <div class="button1">
+
+                            <button  style= "margin:5px" type="button" class="btn btn-primary" >New</button> 
+    
+                            <button  (click)=invGroup(groupid,sort,groupname,alias) style="margin:5px" type="button" class="btn btn-success"  >Save</button>
+    
+                            <button style="margin:5px" type="button" class="btn btn-warning"  >Cancel</button>
+             
+                     </div>
+             
+                
+            
+    </div>
+    </div>
+    
+    
+</div>
